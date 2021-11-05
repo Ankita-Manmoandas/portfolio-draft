@@ -1,0 +1,73 @@
+
+
+
+#section_tech {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  
+  
+
+  .section_headers {
+    font-size: 45px;
+    color: $secondary-color;
+    height: 100px;
+    width: 600px;
+    font-family: $secondary-font;
+    line-height: 100px;
+    text-align: center;
+    padding-bottom: 10px;
+   
+    
+  }
+  
+    #section_grid {
+      height: 444px;
+      width: 600px;
+      display: grid;
+      grid-template-columns: 3;
+      grid-template-rows: 2;
+      text-align: center;
+      line-height: 444px;
+    }
+    .fa-html5 {
+      grid-row: 1/1;
+      grid-column: 1/1;
+    }
+
+    .fa-react {
+      grid-row: 1/1;
+      grid-column: 2/2;
+
+    }
+    .fa-sass {
+      grid-row: 1/1;
+      grid-column: 3/3; 
+    }
+   .fa-brands {
+     color: $secondary-color;
+   }
+  
+  
+    }
+
+
+@media only screen and (min-width: 480px) {
+  #section_tech {
+    height: 50vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: black 2px solid;
+
+
+
+
+}
+
+} 

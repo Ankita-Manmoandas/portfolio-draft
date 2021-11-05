@@ -1,0 +1,53 @@
+@import "../styles/_variables.scss";
+
+
+#section_projects {
+ 
+  border: rgb(133, 67, 67) 2px solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+ 
+
+  #section_projects_header {
+    font-size: 45px;
+    width: 70%;
+    height: 200px;
+    padding-top: 20px;
+   
+    
+    text-align: center;
+    line-height: 200px;
+    color: $secondary-color;
+  }
+  
+
+  #projects_grid {
+    height: 500px;
+    width: 900px;
+    display: grid;
+    grid-template-columns: 3;
+    grid-template-rows: 2; 
+    gap:60px;
+    
+    
+    
+  }
+
+  #project1 {
+    grid-column: 1/1;
+    grid-row: 1/1;
+  }
+  #project2 {
+    grid-column: 2/2;
+    grid-row: 1/1;
+  }
+
+  #project3 {
+    grid-column: 3/3;
+    grid-row: 1/1;
+  }
+
+
+}

@@ -1,0 +1,20 @@
+
+@import "assests/styles/_nav.scss";
+@import "assests/styles/_main.scss";
+@import "assests/sections/tech.scss"; 
+@import "assests/sections/_projects.scss"; 
+@import "assests/sections/contact.scss"; 
+
+#main, #section_tech, #section_projects,  #section_contact 
+{
+  height: 100vh;
+  background-color: $primary-color;
+
+
+}
+
+@media only screen and (max-width:550px) {
+  #main, #section_tech, #section_projects,  #section_contact {
+    width: 100%;
+  }
+}
