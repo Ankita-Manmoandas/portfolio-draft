@@ -176,7 +176,7 @@
   color: #0F1767;
 }
 
-@media only screen and (min-width: 480px) {
+@media only screen and (max-width: 480px) {
   #section_tech {
     height: 50vh;
     width: 50%;
